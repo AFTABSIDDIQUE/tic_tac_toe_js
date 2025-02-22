@@ -37,7 +37,7 @@ boxes.forEach((box)=>{
         }
         box.disabled = true;
         checkWinner();
-        if(count===9){
+        if(checkWinner()!=ture&&count===9){
             drawMatch();
         }
     })
